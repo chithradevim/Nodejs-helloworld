@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: nodejs-helloworld
-        image: chicha1/nodejs-helloworld:latest
+        image: chicha1/nodejs-helloworld:v1
         ports:
         - containerPort: 3000
