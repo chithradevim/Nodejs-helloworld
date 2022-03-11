@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+  - name: "deploy application in kubernetes"
+    k8s:
+      namespace: "default"
+      state: "present"
+      src: "kubernetes/deployment.yml"
